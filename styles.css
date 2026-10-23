@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    background: linear-gradient(135deg, #080d1c, #111638, #21134b);
+    color: #f8fafc;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* Navigation / logo */
+header {
+    padding: 25px 8%;
+    background: rgba(8, 13, 28, 0.75);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: left;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    background: linear-gradient(90deg, #a78bfa, #60a5fa);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: 65px auto;
+    padding: 55px 30px;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.045);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 24px;
+    box-shadow: 0 20px 70px rgba(0, 0, 0, 0.25);
+}
+
+main h2 {
+    font-size: clamp(28px, 5vw, 44px);
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    margin-bottom: 22px;
+}
+
+main p {
+    color: #c4cbe0;
+    line-height: 1.9;
+    font-size: 16px;
+}
+
+/* Launch button */
+.launch-button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 16px 28px;
+    background: linear-gradient(90deg, #7c3aed, #4f46e5, #2563eb);
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: 700;
+    box-shadow: 0 8px 30px rgba(99, 102, 241, 0.35);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.launch-button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 35px rgba(99, 102, 241, 0.55);
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    color: #9ca3c7;
+    font-size: 14px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+footer p {
+    color: #9ca3c7;
+}
